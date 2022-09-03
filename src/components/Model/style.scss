@@ -1,0 +1,23 @@
+.wrap-img {
+  position: relative;
+
+  &__model {
+  }
+  &__glass {
+    position: absolute;
+    width: 280px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.desc {
+  position: absolute;
+  bottom: 0;
+  background-color: pink;
+
+  &__name {
+    font-size: 1.6rem;
+    color: blue;
+  }
+}

@@ -1,0 +1,13 @@
+.wrap-header  {
+  width: 100%;
+  background-color: #00000078;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+
+  &__title {
+    color: white;
+    margin: 0;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+}
